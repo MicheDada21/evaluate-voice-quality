@@ -1,0 +1,10 @@
+{
+  "name": "voice-check",
+  "description": "Check AI-generated speech (ElevenLabs or any TTS) against its script and a real voice: words not read as written, lines in the wrong character's voice, drift, and a 0-100 fidelity score per voice-clone take, with a free offline mode. Use when the user wants a generated voice track checked or voice-clone takes compared and ranked.",
+  "author": {
+    "name": "Tiziano Boccaccini"
+  },
+  "homepage": "https://www.cryptohelvetia.com/ch-labs/prompt-library/skills/voice-check",
+  "repository": "https://github.com/MicheDada21/voice-check",
+  "license": "MIT"
+}

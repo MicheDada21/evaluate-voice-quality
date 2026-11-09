@@ -1,0 +1,11 @@
+[project]
+name = "voice-check"
+version = "0.2.0"
+description = "Voice QA toolkit: compare generated speech with a real voice and with its script"
+requires-python = ">=3.11"
+dependencies = [
+    "num2words>=0.5.14",
+    "numpy>=2.3",
+    "praat-parselmouth>=0.4.7",
+    "pyannote.audio>=4.0.7",
+]
