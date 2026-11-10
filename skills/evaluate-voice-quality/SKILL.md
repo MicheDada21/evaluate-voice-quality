@@ -3,7 +3,7 @@ name: evaluate-voice-quality
 description: "Flags misread words, wrong-voice lines and drift in AI speech, and scores each voice-clone take 0-100 against the real speaker. Use when checking a generated voice track or ranking clone takes."
 ---
 
-# Voice check
+# Evaluate voice quality
 
 Two scripts share one core (`scripts/voicekit.py`). `tts_qa.py` checks one generated track against the text it should read. `voice_match.py` gives one take or a folder of takes a 0-100 fidelity to a recording of the real voice and ranks them. Both write a Markdown report and leave the audio untouched.
 
