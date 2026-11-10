@@ -1,5 +1,5 @@
 ---
-name: voice-check
+name: evaluate-voice-quality
 description: Check AI-generated speech (ElevenLabs or any TTS) against its script and a real voice: words not read as written, lines in the wrong character's voice, drift, and a 0-100 fidelity score per voice-clone take, with a free offline mode. Use when the user wants a generated voice track checked or voice-clone takes compared and ranked.
 ---
 

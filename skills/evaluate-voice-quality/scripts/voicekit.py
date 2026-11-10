@@ -203,7 +203,7 @@ def other_voices(language, gender, n=20):
         if out.exists() or not url:
             continue
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "voice-check"})
+            req = urllib.request.Request(url, headers={"User-Agent": "evaluate-voice-quality"})
             out.write_bytes(urllib.request.urlopen(req, timeout=30).read())
             have.append(out)
         except Exception:
